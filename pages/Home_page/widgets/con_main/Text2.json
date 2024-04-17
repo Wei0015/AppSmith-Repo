@@ -5,21 +5,13 @@
     "widgetName": "Text2",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "displayName": "Text",
-
-    "topRow": 98,
-=======
     "topRow": 95,
-
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-
-    "bottomRow": 104,
-=======
     "bottomRow": 99,
-
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -41,7 +33,7 @@
     "text": "\"Let our app be your trusted travel companion.\"",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 52,
+    "rightColumn": 48,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "1vbd15jfi8",
@@ -59,20 +51,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 40,
     "responsiveBehavior": "fill",
-
-    "originalTopRow": 98,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 5,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 102,
-    "fontSize": "1.25rem",
-=======
     "originalTopRow": 95,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 99,
     "fontSize": "1rem",
-
     "minDynamicHeight": 4
 }
