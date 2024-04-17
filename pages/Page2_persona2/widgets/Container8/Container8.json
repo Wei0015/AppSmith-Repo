@@ -20,7 +20,7 @@
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "backgroundColor"}],
+    "dynamicBindingPathList": [],
     "children": [{
         "widgetName": "Canvas17",
         "isDeprecated": false,
@@ -48,7 +48,7 @@
     }],
     "borderWidth": "1",
     "key": "r9eox4eglz",
-    "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
+    "backgroundColor": "#22c55e",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "FIXED",

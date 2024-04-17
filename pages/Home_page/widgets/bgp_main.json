@@ -6,7 +6,10 @@
     "dynamicPropertyPathList": [
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButton3.buttonColor"}
+        {"key": "groupButtons.groupButton3.buttonColor"},
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton3.onClick"}
     ],
     "displayName": "Button Group",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
@@ -20,7 +23,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton3": {
-            "onClick": "{{utils.setListState('overdue');}}",
+            "onClick": "{{navigateTo('Page1_persona3')}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{utils.listState === 'overdue' ? '#14532d' : '#c7d3c2'}}   ",
             "widgetId": "",
@@ -69,7 +72,7 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{utils.setListState('today');}}",
+            "onClick": "{{navigateTo('Page1_persona1')}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{utils.listState === 'today' ? '#14532d' : '#c7d3c2'}}   ",
             "widgetId": "",
@@ -82,7 +85,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{utils.setListState('pending');}}",
+            "onClick": "{{navigateTo('Page1_persona2')}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{utils.listState === 'pending' ? '#14532d' : '#c7d3c2'}}   ",
             "widgetId": "",

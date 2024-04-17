@@ -1,19 +1,11 @@
 {
   "pages": [
     {
-      "id": "Page2_persona2",
-      "isDefault": false
-    },
-    {
       "id": "Home_page",
       "isDefault": true
     },
     {
       "id": "Page1_persona1",
-      "isDefault": false
-    },
-    {
-      "id": "Page3_persona3",
       "isDefault": false
     },
     {
@@ -25,7 +17,19 @@
       "isDefault": false
     },
     {
+      "id": "Page2_persona2",
+      "isDefault": false
+    },
+    {
       "id": "Page1_persona3",
+      "isDefault": false
+    },
+    {
+      "id": "Page2_persona3",
+      "isDefault": false
+    },
+    {
+      "id": "Page3_persona3",
       "isDefault": false
     }
   ],
@@ -38,7 +42,7 @@
     }
   },
   "color": "#C7F3E3",
-  "icon": "arrow-right",
+  "icon": "flight",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
