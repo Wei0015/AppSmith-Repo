@@ -9,7 +9,9 @@
         {"key": "groupButtons.groupButton3.buttonColor"},
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton3.onClick"}
+        {"key": "groupButtons.groupButton3.onClick"},
+        {"key": "groupButtons.groupButtonojdxtrsn9p.onClick"},
+        {"key": "groupButtons.groupButtonojdxtrsn9p.buttonColor"}
     ],
     "displayName": "Button Group",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
@@ -22,6 +24,21 @@
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
+        "groupButtonojdxtrsn9p": {
+            "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Page1_persona4')}}",
+            "buttonColor": "{{utils.listState === 'overdue' ? '#14532d' : '#c7d3c2'}} ",
+            "widgetId": "yr54a5wim1",
+            "menuItems": {},
+            "index": 3,
+            "label": "Persona 4",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "buttonVariant": "filled",
+            "id": "groupButtonojdxtrsn9p",
+            "isDisabled": false,
+            "placement": "CENTER"
+        },
         "groupButton3": {
             "onClick": "{{navigateTo('Page1_persona3')}}",
             "buttonType": "SIMPLE",
@@ -105,14 +122,16 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton3.onClick"}
+        {"key": "groupButtons.groupButton3.onClick"},
+        {"key": "groupButtons.groupButtonojdxtrsn9p.onClick"}
     ],
     "leftColumn": 18,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButton3.buttonColor"}
+        {"key": "groupButtons.groupButton3.buttonColor"},
+        {"key": "groupButtons.groupButtonojdxtrsn9p.buttonColor"}
     ],
     "key": "l04i1kzi9a",
     "orientation": "horizontal",

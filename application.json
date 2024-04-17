@@ -35,6 +35,14 @@
     {
       "id": "Page1_persona4",
       "isDefault": false
+    },
+    {
+      "id": "Page2_persona4",
+      "isDefault": false
+    },
+    {
+      "id": "last_page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
