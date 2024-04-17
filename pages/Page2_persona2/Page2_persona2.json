@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1140,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -47,19 +47,6 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "async () => {\n  const dataArray = await getAllApplications.run();\n  let uniqueLocations = new Set();\n  let uniqueRoles = new Set();\n  let uniqueStatuses = new Set();\n  dataArray.forEach(candidate => {\n    uniqueLocations.add(candidate.country);\n    uniqueRoles.add(candidate.applied_role);\n    uniqueStatuses.add(candidate.application_status);\n  });\n  let formatSetToArray = set => {\n    let array = Array.from(set);\n    return array.map(item => ({\n      label: item,\n      value: item\n    }));\n  };\n  return {\n    location: formatSetToArray(uniqueLocations),\n    applied_role: formatSetToArray(uniqueRoles),\n    application_status: formatSetToArray(uniqueStatuses)\n  };\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page2_persona2_Utils.filteredApplications",
-              "name": "Utils.filteredApplications",
-              "collectionId": "Page2_persona2_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  const allApplications = await getAllApplications.run();\n  const statusFilter = sel_status.selectedOptionValue;\n  const roleFilter = sel_role.selectedOptionValue;\n  const locationFilter = sel_location.selectedOptionValue;\n  return allApplications.filter(application => {\n    const statusMatch = !statusFilter || statusFilter === '' || statusFilter === 'All' || application.application_status === statusFilter;\n    const roleMatch = !roleFilter || roleFilter === '' || roleFilter === 'All' || application.applied_role === roleFilter;\n    const locationMatch = !locationFilter || locationFilter === '' || locationFilter === 'All' || application.country === locationFilter;\n    return statusMatch && roleMatch && locationMatch;\n  });\n}"
               ],
               "timeoutInMillisecond": 10000
             },

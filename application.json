@@ -15,6 +15,18 @@
     {
       "id": "Page3_persona3",
       "isDefault": false
+    },
+    {
+      "id": "Page2_persona1",
+      "isDefault": false
+    },
+    {
+      "id": "Page1_persona2",
+      "isDefault": false
+    },
+    {
+      "id": "Page1_persona3",
+      "isDefault": false
     }
   ],
   "viewMode": false,
