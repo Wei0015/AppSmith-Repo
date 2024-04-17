@@ -1,78 +1,57 @@
 {
     "needsErrorInfo": false,
-    "mobileBottomRow": 44,
-    "borderColor": "#ffffff",
-    "widgetName": "Text2",
-    "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+    "mobileBottomRow": 17,
+    "widgetName": "flight_text",
     "displayName": "Text",
-
-    "topRow": 98,
-=======
-    "topRow": 95,
-
+    "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-
-    "bottomRow": 104,
-=======
-    "bottomRow": 99,
-
+    "topRow": 13,
+    "bottomRow": 17,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 21,
+    "mobileRightColumn": 17,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 13.701171875,
+    "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 20,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
-    "borderWidth": "",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "\"Let our app be your trusted travel companion.\"",
-    "key": "degi86tuwg",
+    "text": "Get flight info",
+    "key": "860lfsc43y",
     "isDeprecated": false,
-    "rightColumn": 52,
-    "textAlign": "CENTER",
+    "rightColumn": 17,
+    "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "1vbd15jfi8",
+    "widgetId": "iz9lhmz959",
     "minWidth": 450,
     "isVisible": true,
-    "fontStyle": "BOLD,ITALIC",
+    "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "0ixj1agnox",
+    "parentId": "0",
     "tags": [
         "Suggested",
         "Content"
     ],
-    "isLoading": false,
     "renderMode": "CANVAS",
-    "mobileTopRow": 40,
+    "isLoading": false,
+    "mobileTopRow": 13,
     "responsiveBehavior": "fill",
-
-    "originalTopRow": 98,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 5,
+    "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 102,
-    "fontSize": "1.25rem",
-=======
-    "originalTopRow": 95,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 5,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 99,
     "fontSize": "1rem",
-
     "minDynamicHeight": 4
 }
