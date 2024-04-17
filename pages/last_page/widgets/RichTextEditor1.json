@@ -6,12 +6,12 @@
     "iconSVG": "/static/media/icon.074d534389d0f6262ecfbd8e81539d08.svg",
     "displayName": "Rich Text Editor",
     "labelText": "Please leave any comments about your using experience!",
-    "topRow": 188,
+    "topRow": 183,
     "searchTags": [
         "input",
         "rte"
     ],
-    "bottomRow": 215,
+    "bottomRow": 210,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "RICH_TEXT_EDITOR_WIDGET",
@@ -46,11 +46,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 34,
     "responsiveBehavior": "fill",
-    "originalTopRow": 183,
+    "originalTopRow": 194,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 210,
+    "originalBottomRow": 221,
     "defaultText": "",
     "minDynamicHeight": 4
 }

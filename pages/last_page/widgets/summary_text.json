@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 19,
-    "bottomRow": 43,
+    "bottomRow": 38,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 23,
+    "leftColumn": 4,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -28,10 +28,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Thank You,\n\t\tHope our app helps your wonderful trip!",
+    "text": "Thank you for choosing TravEasy!\nWe trust that our application enhances your fantastic journey!",
     "key": "3tnl0ah58w",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 64,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "gvuds0kb2z",
@@ -53,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 38,
+    "originalBottomRow": 49,
     "fontSize": "3rem",
     "minDynamicHeight": 4
 }
