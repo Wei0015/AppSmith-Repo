@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 19,
-    "bottomRow": 32,
+    "bottomRow": 38,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Thank You,\n\t\tHope our app helps your wonderful trip!",
+    "text": "Thank you for choosing TravEasy!\nWe trust that our application enhances your fantastic journey!",
     "key": "3tnl0ah58w",
     "isDeprecated": false,
     "rightColumn": 64,
