@@ -1,0 +1,3 @@
+UPDATE public."job_application" SET
+    "reject_comment" = {{inp_interviewComment.text}}
+  WHERE id = {{tbl_application.selectedRow.id}};

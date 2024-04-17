@@ -1,0 +1,21 @@
+{
+  "end": {
+    "dateTime": "{{new Date(moment(dat_interviewDate.selectedDate).add(1, "hours"))}}",
+		"timeZone": "Asia/Kolkata"
+  },
+    "sendUpdates": "all",
+  "start": {
+    "dateTime": "{{dat_interviewDate.selectedDate}}",
+		"timeZone": "Asia/Kolkata"
+  },
+  "attendees": [
+		{
+      "email": "{{tbl_application.selectedRow.candidate_email}}"
+    },
+    {
+      "email": "{{sel_intevierwer.selectedOptionValue}}"
+    }
+  ],
+  "summary": "Interview with {{tbl_application.selectedRow.candidate_name}}",
+  "description": "Please fill the feedback here https://app.appsmith.com/applications/61c170fe9229e87746b79e05/pages/61c170fe9229e87746b79e0a?appId={{tbl_application.selectedRow.id}}"
+}

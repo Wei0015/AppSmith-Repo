@@ -1,0 +1,4 @@
+UPDATE public."job_application_round" SET
+    "round_rating" = {{sel_updateRating.selectedOptionValue}},
+    "round_note" = {{inp_updateNote.text}}
+  WHERE id = {{sel_updateRound.selectedOptionValue}};

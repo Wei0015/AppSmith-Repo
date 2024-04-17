@@ -1,0 +1,2 @@
+INSERT INTO public."todo_task" ("title", "priority", "status", "is_complete", "comment", "deadline")
+  VALUES ({{inp_updateTaskTitle.text}}, 'LOW', 'pending', false, '', {{dat_updateTaskDeadline.formattedDate}});

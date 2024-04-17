@@ -1,0 +1,4 @@
+SELECT * FROM job_application
+ORDER BY id DESC 
+LIMIT {{tbl_application.pageSize}} 
+OFFSET {{(tbl_application.pageNo - 1) * tbl_application.pageSize}};

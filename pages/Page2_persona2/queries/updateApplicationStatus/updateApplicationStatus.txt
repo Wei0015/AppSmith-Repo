@@ -1,0 +1,3 @@
+UPDATE public."job_application" SET
+    "application_status" = {{this.params.status}}
+  WHERE id = {{tbl_application.selectedRow.id}};

@@ -1,0 +1,80 @@
+{
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "widgetName": "Container1",
+    "dynamicPropertyPathList": [
+        {"key": "isVisible"},
+        {"key": "borderRadius"}
+    ],
+    "topRow": 44,
+    "bottomRow": 114,
+    "parentRowSpace": 40,
+    "type": "CONTAINER_WIDGET",
+    "parentColumnSpace": 74,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 29,
+    "dynamicBindingPathList": [{"key": "isVisible"}],
+    "children": [{
+        "labelTextSize": "0.875rem",
+        "boxShadow": "none",
+        "widgetName": "Canvas1",
+        "rightColumn": 2368,
+        "detachFromLayout": true,
+        "widgetId": "2zmso1n1ry",
+        "containerStyle": "none",
+        "topRow": 0,
+        "bottomRow": 700,
+        "parentRowSpace": 1,
+        "isVisible": true,
+        "canExtend": false,
+        "type": "CANVAS_WIDGET",
+        "version": 1,
+        "parentId": "yedzcruxdu",
+        "minHeight": 690,
+        "isLoading": false,
+        "parentColumnSpace": 1,
+        "dynamicTriggerPathList": [],
+        "leftColumn": 0,
+        "dynamicBindingPathList": [],
+        "borderRadius": "0px"
+    }],
+    "labelTextSize": "0.875rem",
+    "backgroundColor": "#FFFFFF",
+    "rightColumn": 64,
+    "dynamicHeight": "FIXED",
+    "widgetId": "yedzcruxdu",
+    "containerStyle": "card",
+    "isVisible": "{{tbl_application.selectedRow?.id?.toString().length>0}}",
+    "version": 1,
+    "parentId": "0",
+    "blueprint": {"view": [{
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "type": "CANVAS_WIDGET",
+        "props": {
+            "detachFromLayout": true,
+            "children": [
+                "as2xpsslu8",
+                "8vw8xkw2hr",
+                "mtbmxy0c28",
+                "344we5qfz7",
+                "gginf48g6o",
+                "hn2w62bn92",
+                "4kz50a2esn",
+                "ualghxykwd",
+                "itehdmnimm",
+                "xxhj5gh841",
+                "c3s99fz0k7"
+            ],
+            "containerStyle": "none",
+            "canExtend": false
+        }
+    }]},
+    "isLoading": false,
+    "originalTopRow": 87,
+    "borderRadius": "0",
+    "maxDynamicHeight": 9000,
+    "originalBottomRow": 158,
+    "minDynamicHeight": 4
+}

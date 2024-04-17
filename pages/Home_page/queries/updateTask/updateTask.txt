@@ -1,0 +1,9 @@
+UPDATE todo_task
+SET
+	title = {{inp_updateTaskTitle.text}},
+  priority = {{sel_updateTaskPriority.selectedOptionValue}},
+  comment = {{inp_updateTaskComment.text}},
+	deadline = {{dat_updateTaskDeadline.formattedDate}},
+	updated_at = {{new Date().toISOString()}}
+WHERE
+  id = {{utils.selectedTask ? utils.selectedTask.id : 1}}

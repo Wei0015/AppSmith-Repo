@@ -1,0 +1,1 @@
+SELECT * FROM public."job_application_round" WHERE job_application_id = {{tbl_application.selectedRow.id}};

@@ -1,0 +1,10 @@
+INSERT INTO public."job_application_round" ("job_application_id", "round_name", "round_datetime", "interviewer")
+  VALUES ({{tbl_application.selectedRow.id}}, {{sel_round.selectedOptionValue}}, {{dat_interviewDate.formattedDate}}, {{sel_intevierwer.selectedOptionLabel}});
+	
+	UPDATE public."job_application" SET
+    "application_status" = 'Interview Scheduled'
+  WHERE id = {{tbl_application.selectedRow.id}};
+	
+
+	
+	

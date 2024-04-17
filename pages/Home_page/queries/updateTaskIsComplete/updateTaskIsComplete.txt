@@ -1,0 +1,5 @@
+UPDATE todo_task
+SET
+	is_complete = {{utils.selectedTask ? !utils.selectedTask.is_complete : false}}
+WHERE
+  id = {{utils.selectedTask && utils.selectedTask.id}}
