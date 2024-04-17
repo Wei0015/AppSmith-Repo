@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 130,
-    "bottomRow": 134,
+    "topRow": 131,
+    "bottomRow": 135,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 48,
+    "leftColumn": 46,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Want to manage/pay flight tickets?",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 62,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "aqytjhngy7",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 129,
     "responsiveBehavior": "fill",
-    "originalTopRow": 128,
+    "originalTopRow": 130,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 30,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 132,
+    "originalBottomRow": 134,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

@@ -123,6 +123,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
     "bottomRow": 129,
     "fieldLimitExceeded": false,
