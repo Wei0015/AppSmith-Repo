@@ -5,13 +5,13 @@
     "widgetName": "RichTextEditor1",
     "iconSVG": "/static/media/icon.074d534389d0f6262ecfbd8e81539d08.svg",
     "displayName": "Rich Text Editor",
-    "labelText": "Please share any comments about your experience using our app! Your feedback is greatly appreciated.\n\n\n\n\n\n\n",
-    "topRow": 139,
+    "labelText": "Please leave any comments about your using experience!",
+    "topRow": 188,
     "searchTags": [
         "input",
         "rte"
     ],
-    "bottomRow": 184,
+    "bottomRow": 215,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "RICH_TEXT_EDITOR_WIDGET",
@@ -46,11 +46,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 34,
     "responsiveBehavior": "fill",
-    "originalTopRow": 184,
+    "originalTopRow": 183,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 211,
+    "originalBottomRow": 210,
     "defaultText": "",
     "minDynamicHeight": 4
 }
