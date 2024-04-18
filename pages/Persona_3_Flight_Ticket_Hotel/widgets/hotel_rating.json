@@ -26,7 +26,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 66,
+    "originalBottomRow": 89,
     "needsErrorInfo": false,
     "mobileBottomRow": 18,
     "widgetName": "hotel_rating",
@@ -67,7 +67,7 @@
     "mobileTopRow": 11,
     "optionLabel": "name",
     "responsiveBehavior": "fill",
-    "originalTopRow": 59,
+    "originalTopRow": 82,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

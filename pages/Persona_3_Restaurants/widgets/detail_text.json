@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 16,
-    "bottomRow": 20,
+    "topRow": 88,
+    "bottomRow": 92,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 38,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Cuisine Type",
     "key": "3tnl0ah58w",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 17,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "g0u60ymwxu",
@@ -49,9 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 7,
     "responsiveBehavior": "fill",
+    "originalTopRow": 16,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 38,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 20,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
