@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 103,
     "widgetName": "jump_persona3",
-    "onClick": "{{navigateTo('Page1_persona3')}}",
+    "onClick": "{{navigateTo('Persona_3_Flight_Ticket_Hotel')}}",
     "buttonColor": "#22c55e",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

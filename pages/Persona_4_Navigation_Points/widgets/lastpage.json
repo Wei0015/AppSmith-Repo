@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 87,
     "widgetName": "lastpage",
-    "onClick": "{{navigateTo('last_page')}}",
+    "onClick": "{{navigateTo('Conclusion_Page')}}",
     "buttonColor": "#22c55e",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

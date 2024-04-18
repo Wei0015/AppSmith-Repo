@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 137,
-    "onClick": "{{navigateTo('Page2_persona1')}}",
+    "onClick": "{{navigateTo('Persona_1_Update_Tickets')}}",
     "widgetName": "Button1",
     "buttonColor": "#22c55e",
     "dynamicPropertyPathList": [{"key": "onClick"}],

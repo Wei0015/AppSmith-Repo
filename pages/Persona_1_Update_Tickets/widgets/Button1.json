@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 95,
-    "onClick": "{{navigateTo('Page1_persona2')}}",
+    "onClick": "{{navigateTo('Persona_2_Flights_Hotels')}}",
     "widgetName": "Button1",
     "buttonColor": "#22c55e",
     "dynamicPropertyPathList": [{"key": "onClick"}],

@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 138,
-    "onClick": "{{navigateTo('Page3_persona3')}}",
+    "onClick": "{{navigateTo('Persona_3_Activities')}}",
     "widgetName": "Button1",
     "buttonColor": "#22c55e",
     "dynamicPropertyPathList": [{"key": "onClick"}],

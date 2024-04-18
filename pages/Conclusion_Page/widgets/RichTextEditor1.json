@@ -32,7 +32,7 @@
     "key": "3axrrkko37",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 58,
     "isDefaultClickDisabled": true,
     "dynamicHeight": "FIXED",
     "widgetId": "54h42abgen",
@@ -46,11 +46,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 34,
     "responsiveBehavior": "fill",
-    "originalTopRow": 138,
+    "originalTopRow": 137,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 165,
+    "originalBottomRow": 197,
     "defaultText": "",
     "minDynamicHeight": 4
 }
