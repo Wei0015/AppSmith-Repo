@@ -17,10 +17,6 @@
       "isDefault": false
     },
     {
-      "id": "Persona_3_Update_Reservations",
-      "isDefault": false
-    },
-    {
       "id": "Persona_4_Navigation_Points",
       "isDefault": false
     },
@@ -48,6 +44,9 @@
   "unpublishedCustomJSLibs": [
     {
       "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    },
+    {
+      "uidString": "jspdf_https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
     }
   ],
   "publishedCustomJSLibs": [],

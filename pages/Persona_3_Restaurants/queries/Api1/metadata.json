@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n \"Description\": {{Booking_Res.formData.Description}},\n \"Name\": {{Booking_Res.formData.Name}},\n \"Restaurant_ID\": {{Booking_Res.formData.Restaurant_ID}},\n \"Type\": {{Booking_Res.formData.Type}}\n}",
+      "body": "{\n \"Booked_ID\": {{Booking_Res.formData.Booked_ID}}\n \"Description\": {{Booking_Res.formData.Description}},\n \"Name\": {{Booking_Res.formData.Name}},\n \"Type\": {{Booking_Res.formData.Type}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -60,7 +60,6 @@
       "Booking_Res.formData.Booked_ID",
       "Booking_Res.formData.Description",
       "Booking_Res.formData.Name",
-      "Booking_Res.formData.Restaurant_ID",
       "Booking_Res.formData.Type"
     ],
     "userSetOnLoad": false,

@@ -34,9 +34,9 @@
     "mobileTopRow": 25,
     "maxZoomLevel": 1,
     "enableDownload": false,
-    "originalTopRow": 14,
+    "originalTopRow": 12,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 33,
-    "originalBottomRow": 55,
+    "originalBottomRow": 53,
     "enableRotation": false
 }
