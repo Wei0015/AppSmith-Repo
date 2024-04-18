@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 14,
-    "bottomRow": 18,
+    "topRow": 84,
+    "bottomRow": 88,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 38,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "See all availale flights",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 16,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "1w33ga9aye",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 16,
     "responsiveBehavior": "fill",
-    "originalTopRow": 27,
+    "originalTopRow": 84,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 31,
+    "originalBottomRow": 88,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

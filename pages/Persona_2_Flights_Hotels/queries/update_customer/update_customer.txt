@@ -1,0 +1,11 @@
+{
+	"Email": {{customerDetailForm.formData.Email}},
+	"Name": {{customerDetailForm.formData.Name}},
+	"Street": {{customerDetailForm.formData.Street}},
+	"City": {{customerDetailForm.formData.City}},
+	"State": {{customerDetailForm.formData.State}},
+	"ZipCode": {{customerDetailForm.formData.Zip}},
+	"Restaurant_ID": {{customerDetailForm.formData.Restaurant_ID}},
+	"Hotel_id": {{customerDetailForm.formData.Hotel_id}}
+}
+

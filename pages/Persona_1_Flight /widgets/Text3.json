@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 65,
-    "bottomRow": 69,
+    "topRow": 67,
+    "bottomRow": 71,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Book Flight Ticket(Post new)",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 17,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0jsq8104qj",

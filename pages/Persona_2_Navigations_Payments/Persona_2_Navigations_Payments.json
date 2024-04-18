@@ -59,6 +59,14 @@
                 "tbl_application.selectedRow.id"
               ],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Persona_2_Navigations_Payments_get_navigations",
+              "name": "get_navigations",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
             }
           ]
         ],

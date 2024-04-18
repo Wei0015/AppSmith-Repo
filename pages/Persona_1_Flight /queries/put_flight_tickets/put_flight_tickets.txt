@@ -1,0 +1,7 @@
+{
+  "company": {{JSONForm1.formData.company}},
+  "last_name": {{JSONForm1.formData.last_name}},
+  "first_name": {{JSONForm1.formData.first_name}},
+  "job_title": {{JSONForm1.formData.job_title}},
+  "business_phone": {{JSONForm1.formData.business_phone}}
+}

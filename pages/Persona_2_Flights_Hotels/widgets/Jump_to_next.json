@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 116,
-    "bottomRow": 120,
+    "topRow": 180,
+    "bottomRow": 184,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 45,
+    "leftColumn": 46,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "See navigation and payment methods",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 63,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "khqc596hau",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 98,
     "responsiveBehavior": "fill",
-    "originalTopRow": 116,
+    "originalTopRow": 180,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 46,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 120,
+    "originalBottomRow": 184,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
