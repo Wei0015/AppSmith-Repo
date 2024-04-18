@@ -5,18 +5,6 @@
       "isDefault": true
     },
     {
-      "id": "Persona_1_Update_Tickets",
-      "isDefault": false
-    },
-    {
-      "id": "Persona_2_Flights_Hotels",
-      "isDefault": false
-    },
-    {
-      "id": "Persona_2_Navigations_Payments",
-      "isDefault": false
-    },
-    {
       "id": "Persona_3_Flight_Ticket_Hotel",
       "isDefault": false
     },
