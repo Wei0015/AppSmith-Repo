@@ -29,29 +29,11 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Persona_1_Flight _Select_flights1",
-              "name": "Select_flights1",
+              "id": "Persona_1_Flight _Get_hotel",
+              "name": "Get_hotel",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.column || 'flight_no'",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Persona_1_Flight _Total_record_flights1",
-              "name": "Total_record_flights1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText"
-              ],
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
