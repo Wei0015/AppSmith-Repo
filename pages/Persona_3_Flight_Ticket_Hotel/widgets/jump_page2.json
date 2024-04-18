@@ -9,12 +9,12 @@
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "displayName": "Button",
-    "topRow": 120,
+    "topRow": 177,
     "searchTags": [
         "click",
         "submit"
     ],
-    "bottomRow": 124,
+    "bottomRow": 181,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -42,11 +42,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 100,
     "responsiveBehavior": "hug",
-    "originalTopRow": 120,
+    "originalTopRow": 177,
     "disabledWhenInvalid": false,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 48,
-    "originalBottomRow": 124,
+    "originalBottomRow": 181,
     "buttonVariant": "PRIMARY",
     "iconAlign": "right",
     "placement": "CENTER"

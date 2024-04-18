@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Persona 3 - Flight Ticket & Hotel",
+    "text": "Persona 3 - Hotel",
     "key": "o4xpv8p75j",
     "isDeprecated": false,
     "rightColumn": 64,

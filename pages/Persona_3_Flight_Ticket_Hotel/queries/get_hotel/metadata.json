@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_flight_ticket",
+    "name": "get_hotel",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/t/flight_ticket"
+        "url": "web:4000/r/hotel"
       },
       "invalids": [],
       "messages": [],
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T19:05:14Z"
+    "createdAt": "2024-04-18T19:04:04Z"
   },
-  "id": "Persona_3_Flight_Ticket_Hotel_get_flight_ticket",
+  "id": "Persona_3_Flight_Ticket_Hotel_get_hotel",
   "deleted": false,
-  "gitSyncId": "66216742dee2650884c20e3b_66216eeadee2650884c20e85"
+  "gitSyncId": "66216742dee2650884c20e3b_66216ea4dee2650884c20e83"
 }

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1240,
+          "bottomRow": 1810,
           "containerStyle": "none",
           "snapRows": 62,
           "parentRowSpace": 1,
@@ -25,7 +25,26 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Persona_3_Flight_Ticket_Hotel_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Persona_3_Flight_Ticket_Hotel_get_hotel",
+              "name": "get_hotel",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Persona_3_Flight_Ticket_Hotel",
