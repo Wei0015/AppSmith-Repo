@@ -1,0 +1,1 @@
+SELECT COUNT(*) from flights WHERE airline_name LIKE '%{{Table1.searchText}}%';

@@ -5,43 +5,43 @@
       "isDefault": true
     },
     {
-      "id": "Page1_persona1",
+      "id": "Persona_1_Flight ",
       "isDefault": false
     },
     {
-      "id": "Page2_persona1",
+      "id": "Persona_1_Update_Tickets",
       "isDefault": false
     },
     {
-      "id": "Page1_persona2",
+      "id": "Persona_2_Flights_Hotels",
       "isDefault": false
     },
     {
-      "id": "Page2_persona2",
+      "id": "Persona_2_Navigations_Payments",
       "isDefault": false
     },
     {
-      "id": "Page1_persona3",
+      "id": "Persona_3_Flight_Ticket_Hotel",
       "isDefault": false
     },
     {
-      "id": "Page2_persona3",
+      "id": "Persona_3_Restaurants",
       "isDefault": false
     },
     {
-      "id": "Page3_persona3",
+      "id": "Persona_3_Activities",
       "isDefault": false
     },
     {
-      "id": "Page1_persona4",
+      "id": "Persona_3_Update_Reservations",
       "isDefault": false
     },
     {
-      "id": "Page2_persona4",
+      "id": "Persona_4_Navigation_Points",
       "isDefault": false
     },
     {
-      "id": "last_page",
+      "id": "Conclusion_Page",
       "isDefault": false
     }
   ],
