@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Persona_1_Flight _Get_hotel",
-              "name": "Get_hotel",
+              "id": "Persona_1_Flight _get_flights",
+              "name": "get_flights",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
