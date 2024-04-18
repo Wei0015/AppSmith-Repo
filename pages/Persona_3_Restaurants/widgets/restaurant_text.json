@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 42,
-    "bottomRow": 46,
+    "topRow": 62,
+    "bottomRow": 66,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "Restaurant Details",
     "key": "3tnl0ah58w",
     "isDeprecated": false,
-    "rightColumn": 9,
+    "rightColumn": 10,
     "backgroundColor": "#93c5fd",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 9,
     "responsiveBehavior": "fill",
-    "originalTopRow": 42,
+    "originalTopRow": 61,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 46,
+    "originalBottomRow": 66,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

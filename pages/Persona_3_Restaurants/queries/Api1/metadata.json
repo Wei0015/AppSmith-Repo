@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n \"Booked_ID\": {{Booking_Res.formData.Booked_ID}}\n \"Restaurant_ID\": {{Booking_Res.formData.Restaurant_ID}},\n \"Participants\": {{Booking_Res.formData.Participants}},\n \"Datetime\": {{Booking_Res.formData.Datetime}}\n}",
+      "body": "{\n \"Description\": {{Booking_Res.formData.Description}},\n \"Name\": {{Booking_Res.formData.Name}},\n \"Restaurant_ID\": {{Booking_Res.formData.Restaurant_ID}},\n \"Type\": {{Booking_Res.formData.Type}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -41,7 +41,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -58,9 +58,10 @@
     "messages": [],
     "jsonPathKeys": [
       "Booking_Res.formData.Booked_ID",
-      "Booking_Res.formData.Datetime",
-      "Booking_Res.formData.Participants",
-      "Booking_Res.formData.Restaurant_ID"
+      "Booking_Res.formData.Description",
+      "Booking_Res.formData.Name",
+      "Booking_Res.formData.Restaurant_ID",
+      "Booking_Res.formData.Type"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

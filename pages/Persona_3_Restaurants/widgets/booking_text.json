@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 135,
-    "bottomRow": 139,
+    "topRow": 162,
+    "bottomRow": 166,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Booking Restaurant",
     "key": "3tnl0ah58w",
     "isDeprecated": false,
-    "rightColumn": 17,
+    "rightColumn": 18,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "nz2k3wbine",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 78,
     "responsiveBehavior": "fill",
-    "originalTopRow": 135,
+    "originalTopRow": 163,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 139,
+    "originalBottomRow": 167,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

@@ -1,6 +1,6 @@
 {
- "Booked_ID": {{Booking_Res.formData.Booked_ID}}
+ "Description": {{Booking_Res.formData.Description}},
+ "Name": {{Booking_Res.formData.Name}},
  "Restaurant_ID": {{Booking_Res.formData.Restaurant_ID}},
- "Participants": {{Booking_Res.formData.Participants}},
- "Datetime": {{Booking_Res.formData.Datetime}}
+ "Type": {{Booking_Res.formData.Type}}
 }
