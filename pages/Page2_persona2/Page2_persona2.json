@@ -34,7 +34,9 @@
               "collectionId": "Page2_persona2_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "async () => {\n  const dataArray = await getAllApplications.run();\n  let counts = {\n    all: dataArray.length,\n    hired: 0,\n    interviewed: 0,\n    in_assessment: 0,\n    in_review: 0\n  };\n  dataArray.forEach(application => {\n    switch (application.application_status) {\n      case 'Offer Accepted':\n        counts.hired += 1;\n        break;\n      case 'Interview Done':\n        counts.interviewed += 1;\n        counts.in_review += 1;\n        break;\n      case 'Offer Made':\n        counts.in_assessment += 1;\n        break;\n      default:\n        break;\n    }\n  });\n  return counts;\n}"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -43,7 +45,9 @@
               "collectionId": "Page2_persona2_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "async () => {\n  const dataArray = await getAllApplications.run();\n  let uniqueLocations = new Set();\n  let uniqueRoles = new Set();\n  let uniqueStatuses = new Set();\n  dataArray.forEach(candidate => {\n    uniqueLocations.add(candidate.country);\n    uniqueRoles.add(candidate.applied_role);\n    uniqueStatuses.add(candidate.application_status);\n  });\n  let formatSetToArray = set => {\n    let array = Array.from(set);\n    return array.map(item => ({\n      label: item,\n      value: item\n    }));\n  };\n  return {\n    location: formatSetToArray(uniqueLocations),\n    applied_role: formatSetToArray(uniqueRoles),\n    application_status: formatSetToArray(uniqueStatuses)\n  };\n}"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
