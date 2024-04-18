@@ -132,6 +132,7 @@
     "hideCard": false,
     "mobileRightColumn": 25,
     "parentColumnSpace": 17.9375,
+    "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "sourceData": "",
     "resetButtonLabel": "Reset",
