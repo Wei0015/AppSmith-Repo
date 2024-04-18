@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 40,
-    "bottomRow": 44,
+    "topRow": 42,
+    "bottomRow": 46,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,8 @@
     "text": "Restaurant Details",
     "key": "3tnl0ah58w",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 9,
+    "backgroundColor": "#93c5fd",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "i37hl9fbaw",
@@ -49,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 9,
     "responsiveBehavior": "fill",
-    "originalTopRow": 9,
+    "originalTopRow": 42,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 13,
+    "originalBottomRow": 46,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

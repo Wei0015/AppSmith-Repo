@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 57,
-    "bottomRow": 62,
+    "bottomRow": 61,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,8 @@
     "text": "See All Activities:",
     "key": "3tnl0ah58w",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 7,
+    "backgroundColor": "#fce7f3",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "njq5qcxmms",
@@ -54,6 +55,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 62,
-    "fontSize": "1.875rem",
+    "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

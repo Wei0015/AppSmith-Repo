@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 45,
+    "topRow": 47,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -19,7 +19,7 @@
         {"key": "primaryColumns.Restaurant_ID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -28,6 +28,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#231f20",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -59,7 +60,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713467675789,
-    "originalBottomRow": 61,
+    "originalBottomRow": 88,
     "primaryColumnId": "Restaurant_ID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -74,8 +75,12 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 86,
-    "columnWidthMap": {},
+    "bottomRow": 88,
+    "columnWidthMap": {
+        "Price": 240,
+        "Name": 278,
+        "Location": 325
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 22,
@@ -102,6 +107,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Price",
+            "textColor": "#231f20",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -112,6 +118,7 @@
             "sticky": "",
             "originalId": "Price",
             "currencyCode": "USD",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "Restaurant_ID": {
@@ -133,6 +140,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Restaurant_ID",
+            "textColor": "#231f20",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -143,6 +151,7 @@
             "sticky": "",
             "originalId": "Restaurant_ID",
             "currencyCode": "USD",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "Location": {
@@ -164,6 +173,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Location",
+            "textColor": "#231f20",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -174,6 +184,7 @@
             "sticky": "",
             "originalId": "Location",
             "currencyCode": "USD",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "Name": {
@@ -195,6 +206,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Name",
+            "textColor": "#231f20",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -205,13 +217,14 @@
             "sticky": "",
             "originalId": "Name",
             "currencyCode": "USD",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         }
     },
     "key": "fvksv5da9n",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "iczh508r9y",
     "minWidth": 450,
@@ -224,8 +237,9 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 23,
+    "originalTopRow": 47,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
+    "cellBackground": "#93c5fd",
     "verticalAlignment": "CENTER"
 }

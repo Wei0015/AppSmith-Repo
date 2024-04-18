@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 93,
+    "topRow": 95,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -20,7 +20,7 @@
         {"key": "primaryColumns.Type.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -60,7 +60,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713467840132,
-    "originalBottomRow": 101,
+    "originalBottomRow": 133,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 54,
@@ -75,8 +75,8 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 131,
-    "columnWidthMap": {},
+    "bottomRow": 133,
+    "columnWidthMap": {"Restaurant_ID": 326},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,
@@ -113,6 +113,7 @@
             "sticky": "",
             "originalId": "Type",
             "currencyCode": "USD",
+            "cellBackground": "#fca5a5",
             "verticalAlignment": "CENTER"
         },
         "Description": {
@@ -144,6 +145,7 @@
             "sticky": "",
             "originalId": "Description",
             "currencyCode": "USD",
+            "cellBackground": "#fca5a5",
             "verticalAlignment": "CENTER"
         },
         "Cuisine_ID": {
@@ -175,6 +177,7 @@
             "sticky": "",
             "originalId": "Cuisine_ID",
             "currencyCode": "USD",
+            "cellBackground": "#fca5a5",
             "verticalAlignment": "CENTER"
         },
         "Restaurant_ID": {
@@ -206,6 +209,7 @@
             "sticky": "",
             "originalId": "Restaurant_ID",
             "currencyCode": "USD",
+            "cellBackground": "#fca5a5",
             "verticalAlignment": "CENTER"
         },
         "Name": {
@@ -237,13 +241,14 @@
             "sticky": "",
             "originalId": "Name",
             "currencyCode": "USD",
+            "cellBackground": "#fca5a5",
             "verticalAlignment": "CENTER"
         }
     },
     "key": "fvksv5da9n",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "pjw60s9iqh",
     "minWidth": 450,
@@ -256,8 +261,9 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 63,
+    "originalTopRow": 95,
     "mobileLeftColumn": 30,
     "isVisiblePagination": true,
+    "cellBackground": "#fca5a5",
     "verticalAlignment": "CENTER"
 }
