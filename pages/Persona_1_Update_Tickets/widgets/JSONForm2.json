@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "topRow": 93,
+    "topRow": 117,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 1,
@@ -124,7 +124,7 @@
         "buttonVariant": "PRIMARY"
     },
     "displayName": "JSON Form",
-    "bottomRow": 132,
+    "bottomRow": 156,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Form",
