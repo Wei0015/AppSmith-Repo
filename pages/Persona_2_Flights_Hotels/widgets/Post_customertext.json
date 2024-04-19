@@ -28,10 +28,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Update If you want to be a new customer",
+    "text": "Update If you want to update information as a customer",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 21,
+    "rightColumn": 26,
     "backgroundColor": "#dcfce7",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 24,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 14,
+    "originalBottomRow": 15,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

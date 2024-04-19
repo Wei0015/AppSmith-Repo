@@ -77,7 +77,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 95,
+    "bottomRow": 103,
     "columnWidthMap": {
         "amount": 296,
         "payment_type": 365
