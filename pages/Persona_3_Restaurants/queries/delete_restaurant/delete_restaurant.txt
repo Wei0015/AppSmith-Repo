@@ -1,0 +1,5 @@
+{
+ "Name": {{Booking_Res.formData.Name}},
+ "Location": {{Booking_Res.formData.Location}},
+ "Restaurant_ID": {{Booking_Res.formData.Restaurant_ID}}
+}
