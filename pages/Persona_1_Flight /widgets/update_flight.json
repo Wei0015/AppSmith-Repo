@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 35,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,8 @@
     "text": "Please Update Your Flight and Post New Flight",
     "key": "h0bew51d6e",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 48,
+    "backgroundColor": "#dcfce7",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "och61vzsnu",

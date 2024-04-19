@@ -130,7 +130,7 @@
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
-            "isCellVisible": true,
+            "isCellVisible": false,
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,

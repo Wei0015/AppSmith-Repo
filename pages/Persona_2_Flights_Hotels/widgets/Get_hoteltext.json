@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 103,
-    "bottomRow": 107,
+    "topRow": 141,
+    "bottomRow": 145,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 38,
+    "leftColumn": 35,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Get hotel info",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 51,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "qt65ovg1vj",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 48,
     "responsiveBehavior": "fill",
-    "originalTopRow": 103,
+    "originalTopRow": 141,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 107,
+    "originalBottomRow": 145,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
