@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Persona_4_Navigation_Points",
-    "slug": "persona-4-navigation-points",
+    "name": "Persona_2_Navigation_Points",
+    "slug": "persona-2-navigation-points",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1350,
+          "bottomRow": 1280,
           "containerStyle": "none",
           "snapRows": 62,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Persona_4_Navigation_Points_get_navigation",
+              "id": "Persona_2_Navigation_Points_get_navigation",
               "name": "get_navigation",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Persona_4_Navigation_Points",
+        "id": "Persona_2_Navigation_Points",
         "deleted": false,
         "policies": [],
         "userPermissions": []

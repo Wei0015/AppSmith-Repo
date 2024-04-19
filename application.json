@@ -5,6 +5,10 @@
       "isDefault": true
     },
     {
+      "id": "Persona_2_Navigation_Points",
+      "isDefault": false
+    },
+    {
       "id": "Persona_3_Flight_Ticket_Hotel",
       "isDefault": false
     },
@@ -14,10 +18,6 @@
     },
     {
       "id": "Persona_3_Activities",
-      "isDefault": false
-    },
-    {
-      "id": "Persona_4_Navigation_Points",
       "isDefault": false
     },
     {

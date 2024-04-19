@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Persona_4_Navigation_Points",
+    "pageId": "Persona_2_Navigation_Points",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-18T20:58:05Z"
   },
-  "id": "Persona_4_Navigation_Points_get_navigation",
+  "id": "Persona_2_Navigation_Points_get_navigation",
   "deleted": false,
   "gitSyncId": "66216742dee2650884c20e3b_6621895ddee2650884c20e94"
 }

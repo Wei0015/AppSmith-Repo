@@ -62,7 +62,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713484215463,
+    "columnUpdatedAt": 1713501211415,
     "originalBottomRow": 172,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -70,18 +70,24 @@
     "widgetName": "Table1",
     "defaultPageSize": 0,
     "columnOrder": [
-        "hotel_id",
         "Name",
         "description",
         "max_guests",
         "room_price",
         "total_room",
-        "type_id"
+        "type_id",
+        "hotel_id"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 172,
-    "columnWidthMap": {"type_id": 556},
+    "columnWidthMap": {
+        "room_price": 202,
+        "max_guests": 189,
+        "type_id": 556,
+        "description": 235,
+        "Name": 177
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 35,
