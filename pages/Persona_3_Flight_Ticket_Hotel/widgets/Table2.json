@@ -83,7 +83,10 @@
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 106,
-    "columnWidthMap": {},
+    "columnWidthMap": {
+        "zipcode": 134,
+        "amentities": 336
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 35,
