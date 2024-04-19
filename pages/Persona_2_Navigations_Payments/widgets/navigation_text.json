@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Get all routings and distance",
+    "text": "Get all Flight Tickets",
     "key": "vhhaj3bcb6",
     "isDeprecated": false,
     "rightColumn": 16,

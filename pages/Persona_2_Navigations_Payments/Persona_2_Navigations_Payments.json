@@ -29,16 +29,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Persona_2_Navigations_Payments_get_navigations",
-              "name": "get_navigations",
+              "id": "Persona_2_Navigations_Payments_get_payment",
+              "name": "get_payment",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Persona_2_Navigations_Payments_get_payment",
-              "name": "get_payment",
+              "id": "Persona_2_Navigations_Payments_get_tickets",
+              "name": "get_tickets",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
