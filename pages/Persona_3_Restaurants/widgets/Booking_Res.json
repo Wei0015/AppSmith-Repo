@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{delete_restaurant.run()}}",
+    "onSubmit": "{{delete_restaurant.run().then(() => {\n  get_restaurants.run();\n});}}",
     "topRow": 143,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -128,7 +128,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 192,
+    "originalBottomRow": 184,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -175,7 +175,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Restaurant_ID))(Booking_Res.sourceData, Booking_Res.formData, Booking_Res.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Booking_Res.sourceData, Booking_Res.formData, Booking_Res.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "Restaurant_ID",
                 "isVisible": true,
                 "label": "Restaurant ID",
@@ -186,8 +186,8 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 4,
+                "fieldType": "Number Input"
             },
             "Name": {
                 "labelTextSize": "0.875rem",
