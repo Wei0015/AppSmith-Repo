@@ -1,7 +1,21 @@
 # AppSmith-Repo
-CS3200 Final Project APPSmith content
-
+CS3200 Final Project TravEasy APPSmith content
 Team Member(s): Vincent Demaisip, Wei Ding, Miguel Gonzales, Eric Wu, and Gregory Zeng
+
+# TravEasy UI Description:
+TravEasy offers a user-friendly interface designed to simplify trip planning. Our UI consists of three main sections:
+1. Transportation: Easily book flights, trains, buses, and other modes of transport.
+2. Activities: Discover and book exciting activities, tours, and experiences at your destination.
+3. Payment: Manage payment fees securely and conveniently within the application.
+
+## Accessing TravEasy:
+
+To access TravEasy, visit our website at [http://localhost:8080/app/traveasyapp/home-page-661f64aaddd0a931b9e9ecf1?branch=main&embed=true]. If you're a new user, you can sign up for an account to get started(not available for this course). For existing users, simply log in with your credentials to access your account and start planning your trips hassle-free.
+
+System Requirements:
+- Compatible web browser (Chrome, Firefox, Safari, etc.)
+- Internet connection for real-time updates and bookings.
+Our UI is intuitive, responsive, and tailored to provide a seamless experience for travelers of all kinds.
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
