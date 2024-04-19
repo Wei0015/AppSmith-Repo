@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 68,
-    "bottomRow": 73,
+    "bottomRow": 72,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,10 +28,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Please Update Your Flight and Post New Flight",
+    "text": "Please Post Your New Expected Flight Class",
     "key": "h0bew51d6e",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 59,
     "backgroundColor": "#dcfce7",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 73,
-    "fontSize": "1rem",
+    "originalBottomRow": 74,
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

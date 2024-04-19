@@ -1,5 +1,4 @@
 {
-	"TicketID": {{ticket_form.formData.TicketID}},
 	"flight_no": {{ticket_form.formData.flight_no}},
 	"Class": {{ticket_form.formData.Class}},
 	"cost": {{ticket_form.formData.cost}},
