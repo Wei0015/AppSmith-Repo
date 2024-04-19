@@ -1,6 +1,0 @@
-{
- "Booked_ID": {{Booking_Res.formData.Booked_ID}}
- "Description": {{Booking_Res.formData.Description}},
- "Name": {{Booking_Res.formData.Name}},
- "Type": {{Booking_Res.formData.Type}}
-}

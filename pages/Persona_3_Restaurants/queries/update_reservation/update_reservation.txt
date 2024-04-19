@@ -1,0 +1,5 @@
+{
+ "Restaurant_ID": {{Booking_Res.formData.Restaurant_ID}}
+ "Participants": {{Booking_Res.formData.Participants}}
+ "Datetime": {{Booking_Res.formData.Datetime}}
+}

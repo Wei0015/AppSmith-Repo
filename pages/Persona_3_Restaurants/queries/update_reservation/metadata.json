@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "update_reservation",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n \"Booked_ID\": {{Booking_Res.formData.Booked_ID}}\n \"Description\": {{Booking_Res.formData.Description}},\n \"Name\": {{Booking_Res.formData.Name}},\n \"Type\": {{Booking_Res.formData.Type}}\n}",
+      "body": "{\n \"Restaurant_ID\": {{Booking_Res.formData.Restaurant_ID}}\n \"Participants\": {{Booking_Res.formData.Participants}}\n \"Datetime\": {{Booking_Res.formData.Datetime}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -58,9 +58,9 @@
     "messages": [],
     "jsonPathKeys": [
       "Booking_Res.formData.Booked_ID",
-      "Booking_Res.formData.Description",
-      "Booking_Res.formData.Name",
-      "Booking_Res.formData.Type"
+      "Booking_Res.formData.Datetime",
+      "Booking_Res.formData.Participants",
+      "Booking_Res.formData.Restaurant_ID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -68,7 +68,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-18T19:58:21Z"
   },
-  "id": "Persona_3_Restaurants_Api1",
+  "id": "Persona_3_Restaurants_update_reservation",
   "deleted": false,
   "gitSyncId": "66216742dee2650884c20e3b_66217b5ddee2650884c20e8f"
 }
