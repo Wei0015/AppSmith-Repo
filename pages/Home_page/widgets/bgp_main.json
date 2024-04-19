@@ -7,11 +7,11 @@
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButton3.buttonColor"},
-        {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton3.onClick"},
         {"key": "groupButtons.groupButtonojdxtrsn9p.onClick"},
-        {"key": "groupButtons.groupButtonojdxtrsn9p.buttonColor"}
+        {"key": "groupButtons.groupButtonojdxtrsn9p.buttonColor"},
+        {"key": "groupButtons.groupButton1.onClick"}
     ],
     "displayName": "Button Group",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
@@ -89,7 +89,7 @@
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('Page1_persona1')}}",
+            "onClick": "{{navigateTo('Persona_1_Flight ')}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{utils.listState === 'today' ? '#14532d' : '#c7d3c2'}}   ",
             "widgetId": "",
@@ -102,7 +102,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('Page1_persona2')}}",
+            "onClick": "{{navigateTo('Persona_2_Flights_Hotels')}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{utils.listState === 'pending' ? '#14532d' : '#c7d3c2'}}   ",
             "widgetId": "",
