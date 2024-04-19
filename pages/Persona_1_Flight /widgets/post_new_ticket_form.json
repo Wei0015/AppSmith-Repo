@@ -134,7 +134,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 137,
+    "originalBottomRow": 135,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -170,7 +170,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 26,
+                "sourceData": 42,
                 "fieldType": "Number Input"
             },
             "cost": {
@@ -192,7 +192,7 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": 235,
+                "sourceData": 834,
                 "fieldType": "Number Input"
             },
             "flight_no": {
@@ -214,7 +214,7 @@
                 "iconAlign": "left",
                 "position": 5,
                 "isDisabled": false,
-                "sourceData": 13007,
+                "sourceData": 14817,
                 "fieldType": "Number Input"
             },
             "Class": {
@@ -258,7 +258,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 128,
+                "sourceData": 699,
                 "fieldType": "Number Input"
             },
             "customerName": {
@@ -331,7 +331,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 74,
+    "originalTopRow": 72,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

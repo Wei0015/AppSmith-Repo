@@ -42,11 +42,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 133,
     "responsiveBehavior": "hug",
-    "originalTopRow": 143,
+    "originalTopRow": 141,
     "disabledWhenInvalid": false,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 30,
-    "originalBottomRow": 147,
+    "originalBottomRow": 145,
     "buttonVariant": "PRIMARY",
     "iconAlign": "right",
     "placement": "CENTER"
