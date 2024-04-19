@@ -10,7 +10,7 @@ TravEasy offers a user-friendly interface designed to simplify trip planning. Ou
 
 ## Accessing TravEasy:
 
-To access TravEasy, visit our website at [http://localhost:8080/app/traveasyapp/home-page-661f64aaddd0a931b9e9ecf1?branch=main&embed=true]. If you're a new user, you can sign up for an account to get started(not available for this course). For existing users, simply log in with your credentials to access your account and start planning your trips hassle-free.
+To access TravEasy, visit our AppSmith website below. If you're a new user, you can sign up for an account to get started(not available for this course). For existing users, simply log in with your credentials to access your account and start planning your trips hassle-free.
 
 System Requirements:
 - Compatible web browser (Chrome, Firefox, Safari, etc.)
