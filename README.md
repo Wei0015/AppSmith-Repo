@@ -1,5 +1,6 @@
 # AppSmith-Repo
 CS3200 Final Project TravEasy APPSmith content
+
 Team Member(s): Vincent Demaisip, Wei Ding, Miguel Gonzales, Eric Wu, and Gregory Zeng
 
 # TravEasy UI Description:
