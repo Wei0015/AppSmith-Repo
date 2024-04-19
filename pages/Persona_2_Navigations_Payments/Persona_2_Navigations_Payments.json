@@ -51,18 +51,16 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Persona_2_Navigations_Payments_getApplicationRound",
-              "name": "getApplicationRound",
+              "id": "Persona_2_Navigations_Payments_get_navigations",
+              "name": "get_navigations",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "tbl_application.selectedRow.id"
-              ],
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Persona_2_Navigations_Payments_get_navigations",
-              "name": "get_navigations",
+              "id": "Persona_2_Navigations_Payments_get_payment",
+              "name": "get_payment",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

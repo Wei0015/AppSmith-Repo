@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1210,
+          "bottomRow": 1460,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -28,6 +28,14 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Persona_1_Flight _get_flight_ticket",
+              "name": "get_flight_ticket",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Persona_1_Flight _get_flights",
               "name": "get_flights",

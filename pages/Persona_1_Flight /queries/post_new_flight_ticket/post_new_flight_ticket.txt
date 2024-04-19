@@ -1,0 +1,8 @@
+{
+  "TicketID": {{ post_new_ticket_form.formData.TicketID }},
+  "Class": {{ post_new_ticket_form.formData.Class }},
+  "CustomerID": {{ post_new_ticket_form.formData.CustomerID }},
+  "cost": {{ post_new_ticket_form.formData.cost }},
+  "customerName": {{ post_new_ticket_form.formData.customerName }},
+  "flight_no": {{ post_new_ticket_form.formData.flight_no }}
+}

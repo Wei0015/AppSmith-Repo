@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 12,
+    "topRow": 72,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -12,16 +12,16 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "primaryColumns.flight_no.computedValue"},
         {"key": "tableData"},
         {"key": "primaryColumns.Class.computedValue"},
         {"key": "primaryColumns.CustomerID.computedValue"},
         {"key": "primaryColumns.TicketID.computedValue"},
         {"key": "primaryColumns.cost.computedValue"},
-        {"key": "primaryColumns.customerName.computedValue"}
+        {"key": "primaryColumns.customerName.computedValue"},
+        {"key": "primaryColumns.flight_no.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -60,34 +60,34 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713477432015,
-    "originalBottomRow": 42,
+    "columnUpdatedAt": 1713482300889,
+    "originalBottomRow": 107,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
-    "mobileBottomRow": 36,
-    "widgetName": "Get_ticketID",
+    "mobileBottomRow": 100,
+    "widgetName": "new_ticket",
     "defaultPageSize": 0,
     "columnOrder": [
-        "flight_no",
         "Class",
         "CustomerID",
         "TicketID",
         "cost",
-        "customerName"
+        "customerName",
+        "flight_no"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 42,
+    "bottomRow": 107,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 38,
+    "mobileRightColumn": 35,
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
         "TicketID": {
-            "computedValue": "{{Get_ticketID.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TicketID\"]))}}",
+            "computedValue": "{{new_ticket.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TicketID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "TicketID",
@@ -121,7 +121,7 @@
             "verticalAlignment": "CENTER"
         },
         "cost": {
-            "computedValue": "{{Get_ticketID.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cost\"]))}}",
+            "computedValue": "{{new_ticket.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cost\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "cost",
@@ -155,7 +155,7 @@
             "verticalAlignment": "CENTER"
         },
         "flight_no": {
-            "computedValue": "{{Get_ticketID.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"flight_no\"]))}}",
+            "computedValue": "{{new_ticket.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"flight_no\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "flight_no",
@@ -169,7 +169,7 @@
             "isDerived": false,
             "textSize": "0.875rem",
             "allowCellWrapping": false,
-            "index": 6,
+            "index": 5,
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "flight_no",
@@ -189,7 +189,7 @@
             "verticalAlignment": "CENTER"
         },
         "Class": {
-            "computedValue": "{{Get_ticketID.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Class\"]))}}",
+            "computedValue": "{{new_ticket.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Class\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Class",
@@ -223,7 +223,7 @@
             "verticalAlignment": "CENTER"
         },
         "CustomerID": {
-            "computedValue": "{{Get_ticketID.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CustomerID\"]))}}",
+            "computedValue": "{{new_ticket.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CustomerID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CustomerID",
@@ -257,7 +257,7 @@
             "verticalAlignment": "CENTER"
         },
         "customerName": {
-            "computedValue": "{{Get_ticketID.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"customerName\"]))}}",
+            "computedValue": "{{new_ticket.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"customerName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "customerName",
@@ -291,24 +291,24 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "key": "ndpovphdkh",
+    "key": "5j0u2tggdh",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 38,
+    "rightColumn": 32,
     "textSize": "0.875rem",
-    "widgetId": "cftgg56j0g",
+    "widgetId": "p37ga6fqda",
     "minWidth": 450,
-    "tableData": "{{get_flight_tickets.data}}",
+    "tableData": "{{get_flight_ticket.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 8,
+    "mobileTopRow": 72,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 12,
-    "mobileLeftColumn": 4,
+    "originalTopRow": 72,
+    "mobileLeftColumn": 1,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

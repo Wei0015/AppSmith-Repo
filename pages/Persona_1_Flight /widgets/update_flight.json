@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 68,
-    "bottomRow": 72,
+    "bottomRow": 73,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Please Update Your Flight",
+    "text": "Please Update Your Flight and Post New Flight",
     "key": "h0bew51d6e",
     "isDeprecated": false,
     "rightColumn": 51,
@@ -49,9 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 68,
     "responsiveBehavior": "fill",
+    "originalTopRow": 68,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 73,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

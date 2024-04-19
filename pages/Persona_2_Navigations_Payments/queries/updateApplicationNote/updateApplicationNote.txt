@@ -1,3 +1,0 @@
-UPDATE public."job_application" SET
-    "note" = {{inp_interviewComment.text}}
-  WHERE id = {{tbl_application.selectedRow.id}};
