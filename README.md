@@ -1,5 +1,6 @@
 # AppSmith-Repo
 CS3200 Final Project APPSmith content
+
 Team Member(s): Vincent Demaisip, Wei Ding, Miguel Gonzales, Eric Wu, and Gregory Zeng
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
