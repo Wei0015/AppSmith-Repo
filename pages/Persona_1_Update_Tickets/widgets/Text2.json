@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 118,
-    "bottomRow": 122,
+    "topRow": 115,
+    "bottomRow": 119,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Want to pay for the ticket? See all payment methods",
     "key": "degi86tuwg",
     "isDeprecated": false,
-    "rightColumn": 24,
+    "rightColumn": 25,
     "backgroundColor": "#86efac",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 42,
     "responsiveBehavior": "fill",
-    "originalTopRow": 118,
+    "originalTopRow": 115,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 23,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 122,
+    "originalBottomRow": 119,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
